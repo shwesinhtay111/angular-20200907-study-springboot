@@ -1,5 +1,7 @@
 package com.ssh.angular;
 
+import javax.management.RuntimeErrorException;
+
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,7 +24,8 @@ public class HelloWoldController {
 	// hello world bean
 	@GetMapping(path = "hello-world-bean")
 	public HelloWorlBean helloWorldBean() {
-		return new HelloWorlBean("Hello World Service");
+		throw new RuntimeException ("Some Error has Happened");
+		// return new HelloWorlBean("Hello World Service");
 	}
 	
 	// hello-world/path-variable/shwesin
