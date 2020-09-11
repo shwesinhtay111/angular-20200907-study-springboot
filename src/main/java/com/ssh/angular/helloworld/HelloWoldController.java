@@ -1,4 +1,4 @@
-package com.ssh.angular;
+package com.ssh.angular.helloworld;
 
 import javax.management.RuntimeErrorException;
 
