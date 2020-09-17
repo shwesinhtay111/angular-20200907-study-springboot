@@ -1,4 +1,4 @@
-package com.ssh.angular.todo;
+package com.ssh.angular.restserviceful.todo;
 
 import java.net.URI;
 import java.util.List;

@@ -1,10 +1,10 @@
-package com.ssh.angular.helloworld;
+package com.ssh.angular.restserviceful.helloworld;
 
-public class HelloWorlBean {
+public class HelloWorldBean {
 	
 	private String message;
 
-	public HelloWorlBean(String message) {
+	public HelloWorldBean(String message) {
 		this.message = message;
 	}
 
